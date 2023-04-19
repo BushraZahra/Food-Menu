@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins' sans-serif;
+}
+
+
+
+.header{
+    width: 33.33%;
+    float: left;
+    height: 90vh;
+    padding: 10% 10%; 
+    margin:20px 40px;
+background-color: aliceblue;
+}
+.header button{
+    padding: 10px;
+    margin: 5%;
+    color: #3f51b5;
+
+}
+
+nav ul li{
+    display: grid;
+    list-style: none;
+    margin: 10px 30px;
+    padding: 4px;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+.text-box{
+    padding: 10% 10%;
+    /* width: 23.33%; */
+    /* float: left; */
+    
+}
+
+.text-box h1{
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: rgb(9, 121, 219);
+}
+
+.img{
+    width:500px;
+    height:40px;
+    float: right;
+    display: inline;
+    /* margin: 0 auto; */
+    margin-bottom: 50%;
+}
